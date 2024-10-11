@@ -1,0 +1,32 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+    name: IDP-Demo
+    description: FastAPI microservice
+    annotations:
+        backstage.io/techdocs-ref: dir:.
+        github.com/project-slug: sherwin-williams-co/demo
+    tags:
+        - python
+    links:
+        - url: https://idp-demo.aks.com
+          title: IDP Demo App
+          icon: dashboard
+          type: demo-app
+spec:
+  type: service
+  lifecycle: production
+  owner: idpadmins
+  system: demo
+
+
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+    name: demo
+    description: Handy tools to keep artists in the loop
+spec:
+    owner: artist-relations-team
+    domain: demoes
