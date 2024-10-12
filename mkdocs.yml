@@ -1,0 +1,6 @@
+site_name: idp_demo
+site_description: idp documentation
+plugins:
+  - techdocs-core
+nav:
+  - Getting Started: index.md
