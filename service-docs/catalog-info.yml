@@ -1,0 +1,12 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: service-docs
+  description: For documentation
+  annotations:
+    backstage.io/techdocs-ref: dir.
+spec:
+  type: website
+  lifecycle: production
+  owner: group:group-name
