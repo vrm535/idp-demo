@@ -5,7 +5,7 @@ metadata:
   name: service-docs
   description: For documentation
   annotations:
-    backstage.io/techdocs-ref: dir.
+    backstage.io/techdocs-ref: dir:.
 spec:
   type: website
   lifecycle: production
