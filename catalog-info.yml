@@ -5,7 +5,7 @@ metadata:
     description: FastAPI microservice
     annotations:
         backstage.io/techdocs-ref: dir:.
-        github.com/project-slug: sherwin-williams-co/demo
+        github.com/project-slug: sherwin-williams-co/entsvs-finegrained-authz-policies
     tags:
         - python
     links:
