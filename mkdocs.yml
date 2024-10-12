@@ -4,3 +4,5 @@ plugins:
   - techdocs-core
 nav:
   - Getting Started: index.md
+
+repo_url: https://github.com/vrm35/idp-demo
